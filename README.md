@@ -10,3 +10,11 @@
     * git log - вызов журнала изменений (сохранений) 
     * git checkout number.commit - переключение между коммитами
     * git diff - разница между текущим файлом и сохраненным 
+
+ ## Создание и слияние ветвей
+
+    * git branch - показать существующие ветви 
+    * git branch branch.name - создание новой ветви
+    * git checkout branch.name - переход между ветвями
+    * git merge branch.name - слияние ветвей (добавление информации из branch.name в текущую)
+    * git branch -d branch.name - удаление ветки 
